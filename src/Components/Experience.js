@@ -37,9 +37,9 @@ function Experience({ date, company, title, location, description, id }){
   const { scrollYProgress } = useScroll()
   const scale = useTransform(scrollYProgress, [0, 1], [0.7, 2.5]);
     return (
-        <div class="mt-20" id={id}>
+        <div class="pt-36" id={id}>
             <motion.h2 class="text-2xl font-krona text-center mx-60 mb-10" style={{ scale }}>
-                I have <span class="text-orange-400">experience</span> building B2B and consumer products across big corporations and startups.</motion.h2>
+                I have <span class="text-blue-800">experience</span> building B2B and consumer products across big corporations and startups.</motion.h2>
             <div class="bg-black flex flex-row space-x-40 justify-center py-5 h-auto">
                 <img src="/images/ibm.png" alt="IBM logo" class="h-10"/>
                 <img src="/images/expedia.png" alt="expedia logo" class="h-10"/>
@@ -50,10 +50,6 @@ function Experience({ date, company, title, location, description, id }){
                 <Accordion date={date} company={company} title={title} location={location} description={description}/>
                 ))}
             </div>
-            <motion.div class="flex flex-row justify-center w-full pt-12" whileHover={{ scale: 1.1 }}>
-                <p class="font-krona pr-1 text-sm">But that's not all</p>
-                <FiChevronDown class="text-xl"/>
-            </motion.div>
         </div>
     );
 }

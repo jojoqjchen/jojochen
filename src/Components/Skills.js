@@ -5,7 +5,7 @@ function Skills(props) {
     return (
         <div id={props.id}>
             <div class="mt-20 pl-20">
-                <h1 class="text-4xl font-krona text-left">I’m a <span class="text-orange-400">lifelong learner</span>.</h1>
+                <h1 class="text-4xl font-krona text-left">I’m a <span class="text-blue-800">lifelong learner</span>.</h1>
                 <h1 class="text-4xl font-krona text-left">Here’s my toolbox so far. </h1>
                 <p class="text-left w-3/5 pt-4 leading-snug">
                     My background in both UI/UX design and software development gives me a unique edge in empathizing and advocating for users as well as collaborating with my teammates. 
@@ -53,7 +53,7 @@ function Skills(props) {
                     <hr class="h-0.5 bg-black mt-6"/>
                 </div>
             </div>
-            <a href="https://drive.google.com/file/d/1t2FTNBpLbCiue-GFGAxdaQ6Z5Hh-dE8C/view?usp=sharing" target="blank">
+            <a href="https://drive.google.com/file/d/1nVguacFDHQz8yXirBpScRqIujsmNrFUX/view?usp=sharing" target="blank">
             <motion.button 
                 class="rounded-full outline py-2 px-10 mt-10 font-krona mb-20 hover:text-blue-600" 
                 whileHover={{ scale: 1.2 }} 
